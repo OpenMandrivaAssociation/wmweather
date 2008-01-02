@@ -11,6 +11,7 @@ Source:		%{name}-%{version}.tar.bz2
 URL:		http://www.godisch.de/debian/wmweather/
 License:	GPL
 Group:		Graphical desktop/WindowMaker
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	X11-devel curl-devel
 BuildRequires:  X11R6-contrib
 Provides:	wmWeather
