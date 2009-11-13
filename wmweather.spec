@@ -1,6 +1,6 @@
 %define name	wmweather
 %define version	2.4.4
-%define release %mkrel 6
+%define release %mkrel 7
 
 Name: 	 	%{name}
 Summary: 	Weather docklet for WindowMaker
@@ -13,7 +13,7 @@ License:	GPL
 Group:		Graphical desktop/WindowMaker
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	X11-devel curl-devel
-BuildRequires:  X11R6-contrib
+BuildRequires:  xmessage
 Provides:	wmWeather
 Obsoletes:	wmWeather
 
