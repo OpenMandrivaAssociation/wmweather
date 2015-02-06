@@ -1,6 +1,6 @@
 %define name	wmweather
 %define version	2.4.4
-%define release %mkrel 8
+%define release 9
 
 Name: 	 	%{name}
 Summary: 	Weather docklet for WindowMaker
