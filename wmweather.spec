@@ -12,6 +12,11 @@ URL:		https://www.godisch.de/debian/wmweather/
 License:	GPL
 Group:		Graphical desktop/WindowMaker
 BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	X11-devel curl-devel
 BuildRequires:  xmessage
 Provides:	wmWeather
